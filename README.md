@@ -1,3 +1,23 @@
+function yes()
+local ScreenGui = Instance.new("ScreenGui")
+local yes = Instance.new("TextLabel")
+ 
+ ScreenGui.Parent = game.CoreGui
+
+yes.Parent = ScreenGui
+yes.BackgroundColor3 = Color3.fromRGB(255,255,255)
+yes.BackgroundTransparency = 1.000
+yes.Position = UDim2.new(0.316831678, 0, 0.329956591, 0)
+yes.Size = UDim2.new(0, 370, 0, 235)
+yes.Font = Enum.Font.SciFi
+yes.Text = "Script of Milhane34042 and TheGreatASASYN"
+yes.TextColor3 = Color3.fromRGB(66, 145, 4)
+yes.TextSize = 50.000
+yes.TextWrapped = true
+    wait(2)
+    yes.Visible = false
+end
+
 
 
 local cmd1 = "-dt, grab someone"
@@ -67,7 +87,7 @@ local Player = game.Players.LocalPlayer
 Player.Chatted:connect(function(cht)
 	if cht:match("-cmds") then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "FS Cmds By D4RKLXZY";
+			Title = "FS Cmds By D4LXZY/Samourai";
 			Text = "Press F9 To View The Cmds";
 		})
 		print(cmd1)
@@ -137,7 +157,7 @@ end)
 repeat wait(4) until game:IsLoaded()
 
            game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Pourquoi tu script?  /  What you use script?";
  
 })
@@ -198,9 +218,9 @@ local Zaros = 2651456105
 local HyperbolicTimeChamber = 882375367
 
 Player.Chatted:Connect(function(C)
-     if  string.find(C, Prefix .. "D4LXZY") or string.find(C, Prefix .. "Milhane34042") then
+     if  string.find(C, Prefix .. "D4LXZY/Samourai") or string.find(C, Prefix .. "Milhane34042") then
  
-     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~D4LXZY~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n\n Hello Welcome To My Commands Script for Final Stand Im New To scripting so Errors can be found in this Model Hope you enjoy and ill try to keep it updated ;D\n \n")
+     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~D4LXZY/Samourai~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n\n Hello Welcome To My Commands Script for Final Stand Im New To scripting so Errors can be found in this Model Hope you enjoy and ill try to keep it updated ;D\n \n")
      print("\n\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Teleport Utility~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n\n Use !rejoin Or !rj : To rejoin The same Server/Place You're in \n\n Use !earth : To teleport to Earth\n\n Use !space : To teleport to Space\n\n Use !Future : To teleport to The Future \n\n Use !secretworld Or !sw : To teleport to The SecretWorld \n\n Use !queue : To teleport to Queue\n\n Use !zaros : To teleport to Zaros \n\n Use ~hyperbolictimechamber Or !htc : To teleport to The HyperbolicTimeChamber ⚠️Needs The Gamepass⚠️")
     print("\n \n \n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~InGame Utilities~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n\n Use !speed or !sn : To Enable Teleport Speed You can Toggle It On & Off by Pressing 'P' \n\n Use ~noslow Or !ns : To be Able to Spam all your moves Simultaneously \n \n Use !godmode Or !gm : To enable Htc God Mode (You cant Hit others But others Can But they cant damage you) \n \n Use ~toprespawn or !ts : To Respawn In Top After You die \n \n Use !hardreset Or !ev : To hard Reset Your Character (Default Roblox Reset) To reset Ui/Mui/God Timer Or to Fix Glitches \n \n Use !stoptimers Or !sm : To freeze Double Xp & Heaven Timer ⚠️ This Commands Wont ALlow you to (Charge Ki , Block) ⚠️ \n \n ")
     
@@ -216,7 +236,7 @@ elseif string.find(C, Prefix .. "beerusstand") or string.find(C, Prefix .. "be")
  
         beerusx()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Beerus position";
 })
 
@@ -225,7 +245,7 @@ elseif string.find(C, Prefix .. "babaidle") or string.find(C, Prefix .. "bi") th
   
       babaidle()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Baba position";
 })
 
@@ -243,7 +263,7 @@ elseif string.find(C, Prefix .. "hammer") or string.find(C, Prefix .. "hm") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam hammer attack";
 })  
 elseif string.find(C, Prefix .. "hammer") or string.find(C, Prefix .. "hmm") then
@@ -260,7 +280,7 @@ elseif string.find(C, Prefix .. "hammer") or string.find(C, Prefix .. "hmm") the
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam hammer attack";
 })         
 elseif string.find(C, Prefix .. "trash") or string.find(C, Prefix .. "trash") then
@@ -279,7 +299,7 @@ elseif string.find(C, Prefix .. "trash") or string.find(C, Prefix .. "trash") th
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam Trash attack";
 })       
 elseif string.find(C, Prefix .. "spamki") or string.find(C, Prefix .. "sk") then
@@ -305,7 +325,7 @@ elseif string.find(C, Prefix .. "spamki") or string.find(C, Prefix .. "sk") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Auto attack ki damage";
 })    
 elseif string.find(C, Prefix .. "spammelee1") or string.find(C, Prefix .. "sm") then
@@ -332,7 +352,7 @@ elseif string.find(C, Prefix .. "spammelee1") or string.find(C, Prefix .. "sm") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Auto attack melee 1";   
 })  
 elseif string.find(C, Prefix .. "spammelee2") or string.find(C, Prefix .. "am") then
@@ -357,7 +377,7 @@ elseif string.find(C, Prefix .. "spammelee2") or string.find(C, Prefix .. "am") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Auto attack melee 2";
 })  
 
@@ -378,7 +398,7 @@ elseif string.find(C, Prefix .. "ad") or string.find(C, Prefix .. "ad") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Auto ki distance";
 })          
 elseif string.find(C, Prefix .. "at") or string.find(C, Prefix .. "at") then
@@ -395,7 +415,7 @@ elseif string.find(C, Prefix .. "at") or string.find(C, Prefix .. "at") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam Wolf Fang";
 })  
 
@@ -422,7 +442,7 @@ elseif string.find(C, Prefix .. "lecondu266") or string.find(C, Prefix .. "lecon
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam pour Romain XD ";
 })  
 elseif string.find(C, Prefix .. "shield") or string.find(C, Prefix .. "shield") then
@@ -439,7 +459,7 @@ elseif string.find(C, Prefix .. "shield") or string.find(C, Prefix .. "shield") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam shield ";
 })  
 elseif string.find(C, Prefix .. "ex") or string.find(C, Prefix .. "explosion") then
@@ -459,7 +479,7 @@ elseif string.find(C, Prefix .. "ex") or string.find(C, Prefix .. "explosion") t
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam explosion ";
 
 })    
@@ -477,7 +497,7 @@ elseif string.find(C, Prefix .. "fs") or string.find(C, Prefix .. "fs") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam little combo";
 
 })     
@@ -495,7 +515,7 @@ elseif string.find(C, Prefix .. "grab") or string.find(C, Prefix .. "grab") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Grab";
 
 })   
@@ -519,7 +539,7 @@ elseif string.find(C, Prefix .. "fusils") or string.find(C, Prefix .. "fusils") 
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Tu vas te faire fusiller CHEH !";
 
 })     
@@ -538,7 +558,7 @@ elseif string.find(C, Prefix .. "disk") or string.find(C, Prefix .. "disk") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Tu vas te faire charcuter miskine";
 
 })                 
@@ -558,7 +578,7 @@ elseif string.find(C, Prefix .. "lg") or string.find(C, Prefix .. "lg") then
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Spam Light Grenade";
 
 })   
@@ -575,7 +595,7 @@ elseif string.find(C, Prefix .. "final kamehameha") or string.find(C, Prefix .. 
         wait()
     end
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Final Kamehameha";
 })  
 elseif string.find(C, Prefix .. "all kamehameha") or string.find(C, Prefix .. "ak") then
@@ -601,7 +621,7 @@ elseif string.find(C, Prefix .. "all kamehameha") or string.find(C, Prefix .. "a
     end
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "All kamehameha";
 }) 
 elseif string.find(C, Prefix .. "others scripts") or string.find(C, Prefix .. "os") then
@@ -613,7 +633,7 @@ elseif string.find(C, Prefix .. "others scripts") or string.find(C, Prefix .. "o
     --Wear this: https://www.roblox.com/catalog/2493718915/The-High-Seas-Beatrix-The-Pirate-Queen-Hat
 
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Others scripts";
 })         
 
@@ -621,7 +641,7 @@ elseif string.find(C, Prefix .. "whisidle") or string.find(C, Prefix .. "whis") 
 
     whis()
          game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Whis position";
 })
 
@@ -632,7 +652,7 @@ elseif string.find(C, Prefix .. "godmode") or string.find(C, Prefix .. "gm") the
             Stats:WaitForChild("Phys-Resist"):Destroy()
             Stats:WaitForChild("Ki-Resist"):Destroy()
        game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Use it Again To reset";
  
 })
@@ -655,7 +675,7 @@ pcall(function()
 end)
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Rejoin For Normal Chat";
  
 })
@@ -671,7 +691,7 @@ end)
 
 game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Position = UDim2.new(0, 0, 0, 146)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Rejoin To Hide";
  
 })
@@ -683,10 +703,47 @@ for i,v in pairs (game.Players:GetChildren()) do
 end
 elseif string.find(C, Prefix .. "speed") or string.find(C, Prefix .. "sd")then
 
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/FADL0/Fad_CMDs/main/Teleport%20Speed.lua'))()
+        down = false
+velocity = Instance.new("BodyVelocity")
+velocity.maxForce = Vector3.new(10000000, 0, 10000000)
+---vv Use that to change the speed v
+local speed    = 1000
+gyro           = Instance.new("BodyGyro")
+gyro.maxTorque = Vector3.new(10000000, 0, 10000000)
+
+local hum = game.Players.LocalPlayer.Character.Humanoid
+
+function onButton1Down(mouse)
+down = true
+velocity.Parent = game.Players.LocalPlayer.Character.UpperTorso
+velocity.velocity = (hum.MoveDirection) * speed
+gyro.Parent = game.Players.LocalPlayer.Character.UpperTorso
+while down do
+if not down then break end
+velocity.velocity = (hum.MoveDirection) * speed
+local refpos = gyro.Parent.Position + (gyro.Parent.Position - workspace.CurrentCamera.CoordinateFrame.p).unit * 5
+gyro.cframe = CFrame.new(gyro.Parent.Position, Vector3.new(refpos.x, gyro.Parent.Position.y, refpos.z))
+wait(0.1)
+end
+end
+
+function onButton1Up(mouse)
+velocity.Parent = nil
+gyro.Parent = nil
+down = false
+end
+--To Change the key in those 2 lines, replace the "q" with your desired key
+function onSelected(mouse)
+mouse.KeyDown:connect(function(k) if k:lower()=="v"then onButton1Down(mouse)end end)
+mouse.KeyUp:connect(function(k) if k:lower()=="v"then onButton1Up(mouse)end end)
+end
+
+onSelected(game.Players.LocalPlayer:GetMouse())
+
+----
   
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Press 'Q' To Toggle Speed and Again to Untoggle";
  
 })
@@ -695,7 +752,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
          local Character = Player.Character
  game.Players.LocalPlayer.Character:FindFirstChildOfClass("Model"):Destroy()
  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Rejoin To Show";
  
 })
@@ -712,7 +769,7 @@ end
 	
  game.Players.LocalPlayer.Character:FindFirstChildOfClass("Model"):Destroy()
  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY CDMS";
+    Title = "D4LXZY/Samourai";
     Text = "Hard Reset To Show";
  
 })
@@ -727,7 +784,7 @@ end
 end)
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Top Respawn Activated";
 })
 elseif string.find(C, Prefix .. "stoptimers") or string.find(C, Prefix .. "st")then
@@ -740,7 +797,7 @@ game:GetService("RunService").Stepped:Connect(function()
                     end
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Heaven and 2XP Timers are Stopped";
 })
 elseif string.find(C, Prefix .. "earth") then
@@ -803,20 +860,20 @@ end
 		local Humanoid = Character:FindFirstChild("Humanoid")
        Player.Character.Humanoid.Health = 0
          game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Successfully Reseted";
 })
        
        elseif string.find(C, Prefix .. "hdgraphics") or string.find(C, Prefix .. "hg") then 
      loadstring(game:HttpGet('https://raw.githubusercontent.com/FADL0/Fad_CMDs/main/graphicsOrShadders.lua'))()
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "FS cmds";
+    Title = "D4LXZY/Samourai";
     Text = "Graphics/Shadders Activated";
 })
 elseif string.find(C, Prefix .. "noslow") or string.find(C, Prefix .. "ns") then
         loadstring(game:HttpGet('https://raw.githubusercontent.com/FADL0/Fad_CMDs/main/Noslow.lua'))()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "No Slow Activated";
 })
 
@@ -826,7 +883,7 @@ elseif string.find(C, Prefix .. "PowerInpact") or string.find(C, Prefix .. "pi")
 
 game.Workspace.Live[Player.Name]["Power Impact"].Activator["Crash"]:Destroy()
 			 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Power Impact position";
 })
 
@@ -836,7 +893,7 @@ game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.B
 
 game.Workspace.Live[Player.Name]["Dragon Throw"].Activator["Flip"]:Destroy()
 	 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Dragon Throw Activated";
 })
 
@@ -847,7 +904,7 @@ game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.B
 game.Workspace.Live[Player.Name]["Dragon Crush"].Activator["Flip"]:Destroy()
  
  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Dragon Crush Activated";
 })   
 
@@ -857,7 +914,7 @@ elseif string.find(C, Prefix .. "others scripts") or string.find(C, Prefix .. "o
     loadstring(game:HttpGet(('https://pastebin.com/raw/T2iJDHi8'),true))()
  
   game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "other scripts Activated";
 })
 elseif string.find(C, Prefix .. "bonecrush") or string.find(C, Prefix .. "abc") then
@@ -869,7 +926,7 @@ elseif string.find(C, Prefix .. "bonecrush") or string.find(C, Prefix .. "abc") 
     wait()
  
   game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Bone Crush Activated";
 })
 
@@ -882,7 +939,7 @@ game.Workspace.Live[Player.Name]["Bone Crush"].Activator["Crash"]:Destroy()
 
  
   game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Bone Crush Activated";
 })
 
@@ -891,7 +948,7 @@ elseif string.find(C, Prefix .. "infiniteform") or string.find(C, Prefix .. "if"
 game.Players.LocalPlayer.Character.HumanoidRootPart['SaiyanAuraWeak']:Remove()
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "D4LXZY";
+    Title = "D4LXZY/Samourai";
     Text = "Infinite Form Activated";
     
 })
@@ -1564,7 +1621,7 @@ elseif string.find(C, Prefix .. "auto broly melee") or string.find(C, Prefix .. 
                     end)
                     
                     game:GetService("StarterGui"):SetCore("SendNotification", {
-                        Title = "D4LXZY";
+                        Title = "D4LXZY/Samourai";
                         Text = "Broly for melee actived";
                     })         
 end
@@ -2240,7 +2297,7 @@ end)
                         end)
                         
                         game:GetService("StarterGui"):SetCore("SendNotification", {
-                            Title = "FS cmds";
+                            Title = "D4LXZY/Samourai";
                             Text = "Broly for ki dmg actived";
                         })         
 
@@ -2288,7 +2345,7 @@ end)
     end
     function freeze2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Freeze Activated, Press K To Use";
         })
     end
@@ -2316,7 +2373,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "FS";
                 })
                 while true do
@@ -2330,7 +2387,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stopFS";
                             })
 
@@ -2355,7 +2412,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "SK";
                 })
                 while true do
@@ -2378,7 +2435,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stopSK";
                             })
                         end
@@ -2402,7 +2459,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "SM";
                 })
                 while true do
@@ -2425,7 +2482,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stopSM";
                             })
                         end
@@ -2449,7 +2506,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "AM";
                 })
                 while true do
@@ -2472,7 +2529,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stopAM";
                             })
                         end
@@ -2496,7 +2553,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "AT";
                 })
                 while true do
@@ -2510,7 +2567,7 @@ end)
 
                         if key == "l" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stopAK";
                             })
                         end
@@ -2534,7 +2591,7 @@ end)
 
             if key == "v" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "AK";
                 })
                 while true do
@@ -2585,7 +2642,7 @@ end)
     end
     function glt()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Je vais l'enculer comme jamais, ce fils de pute!";
         })
     end
@@ -2602,26 +2659,26 @@ end)
     end)
     function credits1()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
-            Text = "By Milhane34042 / Dark-L4xzy#9975";
+            Title = "D4LXZY/Samourai";
+            Text = "By D4LXZY/Samourai";
         })
     end
     function credits2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
-            Text = "By D4LXZY, Milhane34042 / Dark-L4xzy#9975";
+            Title = "D4LXZY/Samourai";
+            Text = "By D4LXZY/Samourai";
         })
     end
     function credits3()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
-            Text = "By D4LXZY / ?";
+            Title = "D4LXZY/Samourai";
+            Text = "By D4LXZY/Samourai";
         })
     end
     function credits4()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
-            Text = "By D4LXZY /Milhane34042";
+            Title = "D4LXZY/Samourai";
+            Text = "By D4LXZY/Samourai";
         })
     end
     local Player = game.Players.LocalPlayer
@@ -2642,7 +2699,7 @@ end)
 
   function halox()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-                Title = "D4LXZY";
+                Title = "D4LXZY/Samourai";
                 Text = "Halo Removed";
             })
     end
@@ -2667,7 +2724,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -2690,7 +2747,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -2714,7 +2771,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -2737,7 +2794,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -2779,7 +2836,7 @@ end)
     end
     function freeze2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Freeze Activated, Press K To Use";
         })
     end
@@ -2806,7 +2863,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -2829,7 +2886,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -2853,7 +2910,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -2876,7 +2933,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -2900,7 +2957,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -2923,7 +2980,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -2947,7 +3004,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -2970,7 +3027,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -2994,7 +3051,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3017,7 +3074,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3041,7 +3098,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3064,7 +3121,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3088,7 +3145,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3111,7 +3168,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3136,7 +3193,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3147,7 +3204,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3171,7 +3228,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3191,7 +3248,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3215,7 +3272,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3232,7 +3289,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3256,7 +3313,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3276,7 +3333,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3300,7 +3357,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3317,7 +3374,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3341,7 +3398,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3364,7 +3421,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3388,7 +3445,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3406,7 +3463,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3430,7 +3487,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3444,7 +3501,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3468,7 +3525,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3491,7 +3548,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3515,7 +3572,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3535,7 +3592,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3559,7 +3616,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3579,7 +3636,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3603,7 +3660,7 @@ end)
 
             if key == "j" then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "D4LXZY";
+                    Title = "D4LXZY/Samourai";
                     Text = "Violent";
                 })
                 while true do
@@ -3614,7 +3671,7 @@ end)
 
                         if key == "v" then
                             game:GetService("StarterGui"):SetCore("SendNotification", {
-                                Title = "D4LXZY";
+                                Title = "D4LXZY/Samourai";
                                 Text = "stop";
                             })
                         end
@@ -3626,7 +3683,7 @@ end)
     end
     function testttt()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "c'est le plus gros test du monde mon ami!!!!!!!!!!";
         })
     end
@@ -3671,7 +3728,7 @@ end)
 
     function invis1()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Use -re, to become visible";
         })
     end
@@ -3692,7 +3749,7 @@ end)
 
     game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(unpack(args))
     -- Script generated by SimpleSpy - credits to Dark-L4xzy#9975
-    wait(.3)
+    wait(.2)
     local args = {
         [1] = {
             [1] = "Yes"
@@ -3711,7 +3768,7 @@ end)
     end
     function respawn2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Respawning..";
         })
     end
@@ -3730,7 +3787,7 @@ end)
 
     function antiq2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Anti-Wormhole Activated";
             })
     end
@@ -3748,7 +3805,7 @@ end)
     end
     function disable2()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Disabling All...";
         })
     end
@@ -3763,11 +3820,11 @@ end)
 
     function glitcht()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Anti-Bug Activated, (-gm recommended)";
         })
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Press P For Insta-Respawn";
         })
     end
@@ -3789,7 +3846,7 @@ end
 
 function antiq2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Anti-Wormhole Activated";
         })
 end
@@ -3807,7 +3864,7 @@ function disable()
 end
 function disable2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Disabling All...";
         })
         end
@@ -3829,7 +3886,7 @@ end
 
 function antitpua2()
             game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "D4LXZY";
+            Title = "D4LXZY/Samourai";
             Text = "Anti-Tpua Activated";
         })
 end
