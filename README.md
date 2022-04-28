@@ -3841,20 +3841,3 @@ Player.Chatted:connect(function(cht)
     end
 end)
 
-
-elseif string.find(C, Prefix .. "Freeze Double Exp") or string.find(C, Prefix .. "fxp") then
-    local plr = game:GetService("Players").LocalPlayer
-    local mouse = plr:GetMouse()
-    local place = game.PlaceId
-    Character = game.Players.LocalPlayer
-    Players = game.Players.LocalPlayer.Character
-    MouseFunction = game:GetService("Players").LocalPlayer:GetMouse()
-    mouse.KeyDown:connect(function(key)
-
-        if key == "r" then
-
-game:GetService("RunService").Stepped:Connect(function()
-    if game.Players.LocalPlayer.Character:FindFirstChild("True") then
-        game.Players.LocalPlayer.Character:FindFirstChild("True"):Destroy();
-    end;
-end);
