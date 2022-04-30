@@ -706,7 +706,7 @@ elseif string.find(C, Prefix .. "speed") or string.find(C, Prefix .. "sd")then
         down = false
 velocity = Instance.new("BodyVelocity")
 velocity.maxForce = Vector3.new(10000000, 0, 10000000)
----vv Use that to change the speed v
+---vv Use that to change the speed a
 local speed    = 1000
 gyro           = Instance.new("BodyGyro")
 gyro.maxTorque = Vector3.new(10000000, 0, 10000000)
