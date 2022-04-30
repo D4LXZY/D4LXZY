@@ -3928,14 +3928,10 @@ game:GetService("RunService").RenderStepped:Connect(function()
         v:Destroy()
     if game.PlaceId == 536102540 then
      local args = {
-        [1] = workspace.FriendlyNPCs:FindFirstChild("Hair Stylist")
-        }
-    game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(unpack(args))
-        wait(.3)
-    local args = {
-        [1] = {
-                [1] = "Yes"
-            }
+        local Character = Player.Character
+		local Humanoid = Character:FindFirstChild("Humanoid")
+       Player.Character.Humanoid.Health = 0
+         game:GetService("StarterGui"):SetCore("SendNotification
         }
     
     game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
@@ -3980,7 +3976,7 @@ if not game:IsLoaded() then
     game.Players.LocalPlayer.PlayerGui.HUD.Bottom.SP.Text = "System: Shield Activated"
     wait()
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "FS cmds";
+		Title = "D4LXZY/SAMOURAI";
 		Text = "Shieldki : Activated";
 	})
     
