@@ -1,24 +1,3 @@
-function yes()
-local ScreenGui = Instance.new("ScreenGui")
-local yes = Instance.new("TextLabel")
- 
- ScreenGui.Parent = game.CoreGui
-
-yes.Parent = ScreenGui
-yes.BackgroundColor3 = Color3.fromRGB(255,255,255)
-yes.BackgroundTransparency = 1.000
-yes.Position = UDim2.new(0.316831678, 0, 0.329956591, 0)
-yes.Size = UDim2.new(0, 370, 0, 235)
-yes.Font = Enum.Font.SciFi
-yes.Text = "Script of Milhane34042 and TheGreatASASYN"
-yes.TextColor3 = Color3.fromRGB(66, 145, 4)
-yes.TextSize = 50.000
-yes.TextWrapped = true
-    wait(2)
-    yes.Visible = false
-end
-
-
 
 local cmd1 = "-dt, grab someone"
 local cmd2 = "-dc, grab someone"
