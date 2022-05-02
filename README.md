@@ -922,6 +922,7 @@ game.Workspace.Live[Player.Name]["Bone Crush"].Activator["Crash"]:Destroy()
     Text = "Bone Crush Activated";
 })
 
+
 elseif string.find(C, Prefix .. "infiniteform") or string.find(C, Prefix .. "if") then
      local Character = Player.Character
 game.Players.LocalPlayer.Character.HumanoidRootPart['SaiyanAuraWeak']:Remove()
@@ -934,7 +935,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 elseif string.find(C, Prefix .. "esp") then
 	local setkey = "n" -- change to something like "g" or whatever to change it
 	local waitduration = 0.5 -- the amount of time before the ESP updates (removes all current ESP objects and makes new ones)
-
+})
 
 
 	local plr = game:GetService('Players').LocalPlayer
@@ -1088,7 +1089,26 @@ elseif string.find(C, Prefix .. "esp") then
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "FS cmds";
     Text = "ESP press ";
+    
+})
 
+elseif string.find(C, Prefix .. "fdp") then
+    local lplr = game.Players.LocalPlayer  
+    Players = game.Players.LocalPlayer.Character
+    Character = game.Players.LocalPlayer
+    while true do
+        wait()Players.Humanoid:EquipTool(Character.Backpack["Final Blow"])
+        Players["Final Blow"]:Activate() 
+        wait(3)
+            game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack["Bone Crush"])
+			game.Workspace.Live[Player.Name]["Bone Crush"].Activator["Crash"]:Destroy()
+    
+    end
+
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "FS cmds";
+    Text = "fdp";
+       
 elseif string.find(C, Prefix .. "dances") or string.find(C, Prefix .. "animations") then
 	loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
   game:GetService("StarterGui"):SetCore("SendNotification", {
