@@ -922,21 +922,18 @@ game.Workspace.Live[Player.Name]["Bone Crush"].Activator["Crash"]:Destroy()
     Text = "Bone Crush Activated";
 })
 
-
 elseif string.find(C, Prefix .. "infiniteform") or string.find(C, Prefix .. "if") then
      local Character = Player.Character
 game.Players.LocalPlayer.Character.HumanoidRootPart['SaiyanAuraWeak']:Remove()
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "D4LXZY/Samourai";
-    Text = "Infinite Form Activated";
-    
+    Text = "Infinite Form Activated";   
 })
 elseif string.find(C, Prefix .. "esp") then
 	local setkey = "n" -- change to something like "g" or whatever to change it
 	local waitduration = 0.5 -- the amount of time before the ESP updates (removes all current ESP objects and makes new ones)
 })
-
 
 	local plr = game:GetService('Players').LocalPlayer
 
@@ -1091,7 +1088,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "ESP press ";
     
 })
-
 elseif string.find(C, Prefix .. "fdp") then
     local lplr = game.Players.LocalPlayer  
     Players = game.Players.LocalPlayer.Character
